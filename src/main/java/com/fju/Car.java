@@ -3,11 +3,15 @@ package com.fju;
 import java.util.Date;
 
 public class Car {
-    String id;
+
+    String plate;
     Date entertime;
 
-    public Car(String id , Date entertime){
-        this.id = id;
-        this.entertime =new Date();
+    public Car(String plate, Date entertime) {
+        this.plate = plate;
+        this.entertime = entertime;
     }
 }
+
+
+
